@@ -1,6 +1,6 @@
 {
   "name": "node-shell-parser-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line interface for node-shell-parser",
   "bin": {
     "nsp": "cli.js"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/LittleHelicase/node-shell-parser-cli#readme",
   "dependencies": {
     "commander": "^2.9.0",
+    "get-stdin": "^5.0.1",
     "node-shell-parser": "^0.2.1"
   }
 }
