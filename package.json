@@ -1,0 +1,25 @@
+{
+  "name": "node-shell-parser-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for node-shell-parser",
+  "bin": {
+    "nsp": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleHelicase/node-shell-parser-cli.git"
+  },
+  "author": "Maximilian Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LittleHelicase/node-shell-parser-cli/issues"
+  },
+  "homepage": "https://github.com/LittleHelicase/node-shell-parser-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-shell-parser": "^0.2.1"
+  }
+}
